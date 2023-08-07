@@ -9,6 +9,7 @@ class DogPosts extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
+        const SizedBox(width: 2,),
         Flexible(
           child: Container(
             height: 100,

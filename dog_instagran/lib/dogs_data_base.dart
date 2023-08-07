@@ -1,7 +1,8 @@
-import 'dog.dart';
+import 'model/dog.dart';
 
 class Dogs {
   static Dog roberto = Dog(
+    id: 1,
     nome: "Roberto",
     idade: 4,
     sexo: "M",
@@ -11,6 +12,7 @@ class Dogs {
   );
 
   static Dog lapa = Dog(
+    id: 2 ,
     nome: "Lapa",
     idade: 2,
     sexo: "F",
@@ -20,6 +22,7 @@ class Dogs {
   ); 
 
   static Dog guts = Dog(
+    id: 3,
     nome: "Guts",
     idade: 1,
     sexo: "M",

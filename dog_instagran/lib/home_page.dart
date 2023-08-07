@@ -2,12 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:woolf_instagran/dog_card.dart';
 import 'package:woolf_instagran/dog_posts.dart';
 import 'package:woolf_instagran/dogs_data_base.dart';
-import 'dog.dart';
+import 'model/dog.dart';
 
 class InstagranHomePage extends StatelessWidget {
   final List<Dog> dogs = [];
 
   InstagranHomePage({super.key}) {
+    dogs.add(Dogs.lapa);
+    dogs.add(Dogs.roberto);
+    dogs.add(Dogs.guts);
     dogs.add(Dogs.lapa);
     dogs.add(Dogs.roberto);
     dogs.add(Dogs.guts);
