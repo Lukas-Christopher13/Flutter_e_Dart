@@ -3,7 +3,7 @@
 # Imagens 
 
 <div> 
-  <img src ="https://github.com/Lukas-Christopher13/Flutter_e_Dart/issues/1#issue-1966575014"/>
+  <img src ="https://github.com/Lukas-Christopher13/Flutter_e_Dart/issues/1#issue-1966575014" width=700px/>
 </div>
 
 This project is a starting point for a Flutter application.
